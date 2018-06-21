@@ -11,9 +11,5 @@ namespace Moneybox.App
         public User User { get; set; }
 
         public decimal Balance { get; set; }
-
-        public decimal Withdrawn { get; set; }
-
-        public decimal PaidIn { get; set; }
     }
 }

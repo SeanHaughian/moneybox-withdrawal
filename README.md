@@ -24,3 +24,9 @@ As part of this process however, you should look to refactor some of the code in
 Once you have completed your work, send us a link to your public repository.
 
 Good luck!
+
+## Changes - Sean Haughian
+- Added locking behaviour to the transfer money and withdrawl money execute methods.
+This mostly acts as concept, as a multi-threaded system would need to protect against this.
+- For transfer/withdrawl money I have separated exceptions from the regular code
+- Removed paid in / withdrawl amounts as these are not pertinent to a users account, and are tied to a transaction instead.
